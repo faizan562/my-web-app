@@ -2,8 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Zipping artifacts..."
-      - zip -r app.zip *
+      - echo "Deploying WebApp"
 artifacts:
   files:
-    - app.zip
+    - '**/*'
